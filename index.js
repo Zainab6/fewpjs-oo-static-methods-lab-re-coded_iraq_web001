@@ -14,15 +14,15 @@ class Formatter {
     if (i === 0){
       arr.push(this.capitalize(result[i]))
     }
-    else {
-    if ( words.includes(result[i])){
+   // else {
+   else if ( words.includes(result[i])){
       arr.push(result[i])
     }
     
     else {
       arr.push(this.capitalize(result[i]))
     }
-    }
+   // }
     }
     return arr.join(' ')
     }
