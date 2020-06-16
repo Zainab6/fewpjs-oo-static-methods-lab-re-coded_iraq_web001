@@ -22,7 +22,7 @@ class Formatter {
     else {
       arr.push(this.capitalize(result[i]))
     }
-    
+    }
     }
     return arr.join(' ')
     }
