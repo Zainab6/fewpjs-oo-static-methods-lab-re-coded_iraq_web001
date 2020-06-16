@@ -11,7 +11,9 @@ class Formatter {
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
      result[i]= result[i].charAt(0).toUpperCase() + result[i].slice(1)
-     words.toLowerCase()
+     if (result.includes(words)){
+       return words.toLowerCase()
+     }
     }
     
     return result.join(' ')
