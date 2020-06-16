@@ -18,6 +18,11 @@ class Formatter {
     else {
       arr.push(this.capitalize(result[i]))
     }
+    for (let i = 1; i<result.length; i++){
+      if (words.includes(result[i])){
+      arr.push(result[i])
+    }
+    }
     }
     return arr.join(' ')
   }
