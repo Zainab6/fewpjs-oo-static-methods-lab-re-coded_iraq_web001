@@ -15,9 +15,9 @@ class Formatter {
       arr.push(this.capitalize(result[i]))
     }
     
-    // if (words.includes(result[i])){
-    //   arr.push(result[i])
-    // }
+    if (words.includes(result[i])){
+      arr.push(result[i])
+    }
     
     else {
       arr.push(this.capitalize(result[i]))
