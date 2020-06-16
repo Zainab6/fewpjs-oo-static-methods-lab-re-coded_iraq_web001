@@ -14,7 +14,6 @@ class Formatter {
     if (i === 0){
       arr.push(this.capitalize(result[i]))
     }
-   // else {
    else if ( words.includes(result[i])){
       arr.push(result[i])
     }
@@ -22,7 +21,7 @@ class Formatter {
     else {
       arr.push(this.capitalize(result[i]))
     }
-   // }
+   
     }
     return arr.join(' ')
     }
