@@ -7,12 +7,13 @@ class Formatter {
     return string.replace(/[^A-Za-z0-9-' ]+/g, '')
   }
   static titleize(string){
+    let Arr=[]
     let  words = ["the", "a", "an", "but", "of", "and", "for", "at", "by","from"]
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
     // 
     if (i ===0){
-      this.capitalize
+      arr.push(result[i])
     }
     }
     return result.join(' ')
