@@ -7,7 +7,7 @@ class Formatter {
     return string.replace(/[^A-Za-z0-9-' ]+/g, '')
   }
   static titleize(string){
-    let Arr=[]
+    let arr=[]
     let  words = ["the", "a", "an", "but", "of", "and", "for", "at", "by","from"]
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
