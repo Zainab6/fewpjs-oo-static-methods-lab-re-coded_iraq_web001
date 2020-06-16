@@ -12,7 +12,7 @@ class Formatter {
     for(let i = 0 ; i < result.length;i++){
     // 
     if (i ===0){
-      result
+      result.this.capitalize
     }
     }
     return result.join(' ')
