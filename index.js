@@ -21,6 +21,6 @@ class Formatter {
       arr.push(this.capitalize(result[i]))
     }
     }
-    return result.join(' ')
+    return arr.join(' ')
   }
 }
