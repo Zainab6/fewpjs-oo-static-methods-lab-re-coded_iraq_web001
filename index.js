@@ -11,7 +11,7 @@ class Formatter {
     let  words = ["the", "a", "an", "but", "of", "and", "for", "at", "by","from"]
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
-    if (i === 0){
+    if (i == 0){
       arr.push(this.capitalize(result[i]))
     }
     if (words.includes(result[i])){
