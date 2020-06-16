@@ -15,7 +15,7 @@ class Formatter {
       arr.push(this.capitalize(result[i]))
     }
     
-    if ( i>1 && words.includes(result[i])){
+    if ( words.includes(result[i])){
       arr.push(result[i])
     }
     
