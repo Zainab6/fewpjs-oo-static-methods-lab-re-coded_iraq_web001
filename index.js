@@ -12,7 +12,7 @@ class Formatter {
     for(let i = 0 ; i < result.length;i++){
      result[i]= result[i].charAt(0).toUpperCase() + result[i].slice(1)
      for (let n=0;n<words.length ; n++){
-     if (result.includes(words)){
+     if (result.includes(words[n])){
        return words.toLowerCase()
      }
      }
