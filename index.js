@@ -10,7 +10,7 @@ class Formatter {
     let  words = ["the", "a", "an", "but", "of", "and", "for", "at", "by","from"]
     let result = string.split(" ")
     for(let i = 0 ; i < string.length;i++){
-     result[i]= capitalize(result[i])
+     result[i]= result[i].charAt(0).toUpperCase() + result[i].slice(1)
     }
     return result.join(' ')
   }
