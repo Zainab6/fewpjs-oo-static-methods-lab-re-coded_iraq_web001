@@ -19,8 +19,8 @@ class Formatter {
       arr.push(this.capitalize(result[i]))
     }
     for (let i = 1; i<result.length; i++){
-      if (words.includes(result[i])){
-      arr.push(result[i])
+      if (words.includes(result[1])){
+      arr.push(result[1])
     }
     }
     }
