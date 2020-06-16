@@ -10,10 +10,10 @@ class Formatter {
     let  words = ["the", "a", "an", "but", "of", "and", "for", "at", "by","from"]
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
-     result[i]= result[i].charAt(0).toUpperCase() + result[i].slice(1)
-     if (words.includes( result[i])){
-        result.toLowerCase(words)
-     }
+    // 
+    if (i ===0){
+      result
+    }
     }
     return result.join(' ')
   }
