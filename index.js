@@ -12,10 +12,13 @@ class Formatter {
     let result = string.split(' ')
     for(let i = 0 ; i < result.length;i++){
     if (i === 0){
-      arr.push(this.capitalize.result[i])
+      arr.push(this.capitalize(result[i]))
     }
     if (words.includes(result[i])){
-      arr.push.(this.capitalize.)
+      arr.push(result[i])
+    }
+    else {
+      arr.push(this.capitalize(result[i]))
     }
     }
     return result.join(' ')
