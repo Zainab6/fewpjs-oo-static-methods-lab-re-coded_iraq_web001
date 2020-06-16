@@ -12,6 +12,6 @@ class Formatter {
     for(let i = 0 ; i < string.length;i++){
      result[n]= result[n].capitalize
     }
-    return result
+    return result.join(' ')
   }
 }
