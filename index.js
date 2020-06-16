@@ -13,7 +13,7 @@ class Formatter {
     for(let i = 0 ; i < result.length;i++){
     // 
     if (i ===0){
-      arr.push(result[i])
+      arr.push(this.capitalize.result[i])
     }
     }
     return result.join(' ')
